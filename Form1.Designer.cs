@@ -52,6 +52,7 @@ namespace Diffusion_Calculation
             this.button2 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -246,11 +247,22 @@ namespace Diffusion_Calculation
             this.label12.TabIndex = 21;
             this.label12.Text = "1st Column - time, days;\r\n2nd Column - concentration at specified time";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(2, 1);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 22;
+            this.button3.Text = "About";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 590);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button2);
@@ -307,6 +319,7 @@ namespace Diffusion_Calculation
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button button3;
     }
 }
 

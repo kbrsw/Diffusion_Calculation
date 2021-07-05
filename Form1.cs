@@ -63,7 +63,7 @@ namespace Diffusion_Calculation
             double ro1 = Convert.ToDouble(ro);
             double c1 = Convert.ToDouble(с);
             double r1 = 1 + (kd1 * ro1/n1);
-            double f = 0.001;
+            
 
             Directory.CreateDirectory(@"C:\DiffusionCalc\");
             File.AppendAllText(@"C:\DiffusionCalc\Conc_Length.txt", " " + Environment.NewLine);
@@ -124,6 +124,12 @@ namespace Diffusion_Calculation
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", Convert.ToString(";"));
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", k1 + Environment.NewLine);
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
         }
     }
 }
