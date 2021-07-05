@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Diffusion_Calculation</id>
+    <version>1.0.0</version>
+    <authors>Diffusion_Calculation</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\Diffusion_Calculation.runtimeconfig.json" target="lib\netcoreapp3.1\Diffusion_Calculation.runtimeconfig.json" />
+    <file src="C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\Diffusion_Calculation.dll" target="lib\netcoreapp3.1\Diffusion_Calculation.dll" />
+  </files>
+</package>

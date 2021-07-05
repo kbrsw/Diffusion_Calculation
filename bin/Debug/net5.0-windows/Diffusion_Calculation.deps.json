@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Diffusion_Calculation/1.0.0": {
+        "dependencies": {
+          "Meta.Numerics": "4.1.4.0"
+        },
+        "runtime": {
+          "Diffusion_Calculation.dll": {}
+        }
+      },
+      "Meta.Numerics/4.1.4.0": {
+        "runtime": {
+          "Meta.Numerics.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.1.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Diffusion_Calculation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meta.Numerics/4.1.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
