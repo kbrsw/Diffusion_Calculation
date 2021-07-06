@@ -53,6 +53,7 @@ namespace Diffusion_Calculation
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.formsPlot1 = new ScottPlot.FormsPlot();
             this.SuspendLayout();
             // 
             // label1
@@ -257,11 +258,21 @@ namespace Diffusion_Calculation
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // formsPlot1
+            // 
+            this.formsPlot1.BackColor = System.Drawing.Color.Transparent;
+            this.formsPlot1.Location = new System.Drawing.Point(347, 32);
+            this.formsPlot1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.formsPlot1.Name = "formsPlot1";
+            this.formsPlot1.Size = new System.Drawing.Size(380, 337);
+            this.formsPlot1.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 590);
+            this.ClientSize = new System.Drawing.Size(749, 590);
+            this.Controls.Add(this.formsPlot1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -286,7 +297,6 @@ namespace Diffusion_Calculation
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(365, 629);
             this.MinimumSize = new System.Drawing.Size(365, 629);
             this.Name = "Form1";
             this.Text = "Diffusion Calculator";
@@ -320,6 +330,7 @@ namespace Diffusion_Calculation
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button3;
+        private ScottPlot.FormsPlot formsPlot1;
     }
 }
 

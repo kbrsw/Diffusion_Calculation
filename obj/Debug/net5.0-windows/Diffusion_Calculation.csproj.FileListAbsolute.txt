@@ -20,3 +20,7 @@ C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calcula
 C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\net5.0-windows\ref\Diffusion_Calculation.dll
 C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\net5.0-windows\Diffusion_Calculation.pdb
 C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\net5.0-windows\Diffusion_Calculation.genruntimeconfig.cache
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\net5.0-windows\ScottPlot.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\net5.0-windows\ScottPlot.WinForms.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\net5.0-windows\Diffusion_Calculation.Form2.resources
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\net5.0-windows\Diffusion_Calculation.Properties.Resources.resources

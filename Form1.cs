@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using Meta.Numerics;
+using ScottPlot.Drawing;
 
 namespace Diffusion_Calculation
 {
@@ -70,7 +71,9 @@ namespace Diffusion_Calculation
             File.AppendAllText(@"C:\DiffusionCalc\Conc_Length.txt", "Time is ");
             File.AppendAllText(@"C:\DiffusionCalc\Conc_Length.txt", T1 + Environment.NewLine);
             File.AppendAllText(@"C:\DiffusionCalc\Conc_Length.txt", "--------------------" + Environment.NewLine);
-
+            formsPlot1.Plot.Clear();
+            formsPlot1.Plot.XLabel("Length, m");
+            formsPlot1.Plot.YLabel("Concentration, kg/m^3");
             for (int i = 1; i < 1000; i++)
             {
                 double G1 = ml1 * i / 1000;
@@ -78,7 +81,13 @@ namespace Diffusion_Calculation
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Length.txt", Convert.ToString(G1));
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Length.txt", Convert.ToString(";"));
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Length.txt", k1 + Environment.NewLine);
-            }            
+                double[] dataX = new double[] { G1 };
+                double[] dataY = new double[] { k1 };
+                formsPlot1.Plot.AddScatter(dataX, dataY);
+
+            }
+           
+
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -115,7 +124,9 @@ namespace Diffusion_Calculation
             File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", "Distance is ");
             File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", ml1 + Environment.NewLine);
             File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", "--------------------" + Environment.NewLine);
-
+            formsPlot1.Plot.Clear();
+            formsPlot1.Plot.XLabel("Time, days");
+            formsPlot1.Plot.YLabel("Concentration, kg/m^3");
             for (int i = 0; i < 1000; i++)
             {
                 double t1 = T1 * i / 1000;
@@ -123,7 +134,11 @@ namespace Diffusion_Calculation
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", Convert.ToString(t1));
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", Convert.ToString(";"));
                 File.AppendAllText(@"C:\DiffusionCalc\Conc_Time.txt", k1 + Environment.NewLine);
+                double[] dataX = new double[] { t1 };
+                double[] dataY = new double[] { k1 };
+                formsPlot1.Plot.AddScatter(dataX, dataY);
             }
+            
         }
 
         private void button3_Click(object sender, EventArgs e)

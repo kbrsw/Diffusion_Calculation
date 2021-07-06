@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ghPC3hYXYlaxfh1lHoY/VpboL64dZ8ENqLAMMasRCpGO4w8QDy74hlx+Z9lxouy1g0WYev9ZzzgJbK4/Sgp5Bw==",
+  "dgSpecHash": "Uk6BTOPStfpDrVBXz1xm6SLaeaqyVP1OAdD3uTr/lfbaOIAeF0rwJqnhIS7MG1lzmy993iv5oj6AZxMdqCnCRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\KostyaPC\\source\\repos\\Diffusion\\Diffusion_Calculation\\Diffusion_Calculation\\Diffusion_Calculation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KostyaPC\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\KostyaPC\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\KostyaPC\\.nuget\\packages\\scottplot\\4.1.16\\scottplot.4.1.16.nupkg.sha512",
+    "C:\\Users\\KostyaPC\\.nuget\\packages\\scottplot.winforms\\4.1.16\\scottplot.winforms.4.1.16.nupkg.sha512",
+    "C:\\Users\\KostyaPC\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

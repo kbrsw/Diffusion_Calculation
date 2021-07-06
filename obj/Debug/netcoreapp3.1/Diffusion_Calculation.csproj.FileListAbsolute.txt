@@ -19,3 +19,10 @@ C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calcula
 C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\netcoreapp3.1\Diffusion_Calculation.csproj.AssemblyReference.cache
 C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\netcoreapp3.1\Diffusion_Calculation.Form2.resources
 C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\obj\Debug\netcoreapp3.1\Diffusion_Calculation.Properties.Resources.resources
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\ScottPlot.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\ScottPlot.WinForms.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\KostyaPC\source\repos\Diffusion\Diffusion_Calculation\Diffusion_Calculation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
