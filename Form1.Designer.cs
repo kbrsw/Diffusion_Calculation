@@ -47,13 +47,13 @@ namespace Diffusion_Calculation
             this.label8 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.formsPlot1 = new ScottPlot.FormsPlot();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.Button_SaveRate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -201,25 +201,6 @@ namespace Diffusion_Calculation
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(22, 408);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(314, 15);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Results will be saved to C://DiffusionCalc/Conc_Length.txt";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(22, 428);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(298, 30);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "1st Column - distance, meters;\r\n2nd Column - concentrtration at the end of experi" +
-    "ment";
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(22, 482);
@@ -229,24 +210,6 @@ namespace Diffusion_Calculation
             this.button2.Text = "Calculate Concentration vs. Time";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(22, 530);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(304, 15);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "Results will be saved to C://DiffusionCalc/Conc_Time.txt";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(22, 549);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(248, 30);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "1st Column - time, days;\r\n2nd Column - concentration at specified time";
             // 
             // button3
             // 
@@ -261,24 +224,66 @@ namespace Diffusion_Calculation
             // formsPlot1
             // 
             this.formsPlot1.BackColor = System.Drawing.Color.Transparent;
-            this.formsPlot1.Location = new System.Drawing.Point(347, 32);
+            this.formsPlot1.Location = new System.Drawing.Point(357, 32);
             this.formsPlot1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.formsPlot1.MaximumSize = new System.Drawing.Size(643, 637);
+            this.formsPlot1.MinimumSize = new System.Drawing.Size(643, 637);
             this.formsPlot1.Name = "formsPlot1";
-            this.formsPlot1.Size = new System.Drawing.Size(380, 337);
+            this.formsPlot1.Size = new System.Drawing.Size(643, 637);
             this.formsPlot1.TabIndex = 23;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(22, 525);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(296, 33);
+            this.button4.TabIndex = 24;
+            this.button4.Text = "Save";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(22, 411);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(296, 36);
+            this.button5.TabIndex = 25;
+            this.button5.Text = "Save";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(22, 593);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(296, 35);
+            this.button6.TabIndex = 26;
+            this.button6.Text = "Calculate Rate vs. Time";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // Button_SaveRate
+            // 
+            this.Button_SaveRate.Location = new System.Drawing.Point(22, 635);
+            this.Button_SaveRate.Name = "Button_SaveRate";
+            this.Button_SaveRate.Size = new System.Drawing.Size(296, 34);
+            this.Button_SaveRate.TabIndex = 27;
+            this.Button_SaveRate.Text = "Save";
+            this.Button_SaveRate.UseVisualStyleBackColor = true;
+            this.Button_SaveRate.Click += new System.EventHandler(this.Button_SaveRate_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(749, 590);
+            this.ClientSize = new System.Drawing.Size(1013, 702);
+            this.Controls.Add(this.Button_SaveRate);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.formsPlot1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label8);
@@ -297,7 +302,8 @@ namespace Diffusion_Calculation
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(365, 629);
+            this.MaximumSize = new System.Drawing.Size(1029, 741);
+            this.MinimumSize = new System.Drawing.Size(1029, 741);
             this.Name = "Form1";
             this.Text = "Diffusion Calculator";
             this.ResumeLayout(false);
@@ -324,13 +330,13 @@ namespace Diffusion_Calculation
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button3;
         private ScottPlot.FormsPlot formsPlot1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button Button_SaveRate;
     }
 }
 
